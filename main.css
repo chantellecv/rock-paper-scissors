@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: rgb(170, 223, 243);
 }
 
 .navbar {
@@ -36,11 +36,18 @@ body {
 .title {
   font-size: 28px;
   padding: 5px;
-  font-weight: 100;
-  color: #ec4d44;
-  font-style: oblique;
+  /* font-weight: 100; */
+  /* color: #ec4d44; */
 }
 
+.prefix {
+  color: black;
+}
+
+.game-name {
+  font-style: oblique;
+  color: red;
+}
 .game-container {
   display: flex;
   justify-content: center;
@@ -68,6 +75,7 @@ body {
   width: 200px;
   text-align: center;
   color: white;
+  
 }
 
 #play-btn {

@@ -24,6 +24,7 @@
     player2.innerHTML = choice2;
     resultArea.innerHTML = result;
     resultArea.style.color = "red";
+    resultArea.style.textShadow = "-2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff";
   };
 
   const decideWinner = (a, b) => {
