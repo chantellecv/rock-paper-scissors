@@ -27,7 +27,7 @@
     player1.innerHTML = choice1;
     player2.innerHTML = choice2;
     resultArea.innerHTML = result;
-    resultArea.style.color = "black";
+    resultArea.style.color = "red";
   };
 
   const decideWinner = (a, b) => {
