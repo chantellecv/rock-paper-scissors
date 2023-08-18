@@ -2,16 +2,12 @@
   const choices = ['✊', '🤚', '✌️'];
   const player1 = document.getElementById('player-1');
 
-  /* 1a. */
   const player2 = document.getElementById('player-2');
 
-  /* 1b. */
   const resultArea = document.getElementById('result-area');
 
-  /* 1c. */
   const playBtn = document.getElementById('play-btn');
 
-  /* This will help check your results */
   console.log(player2, resultArea, playBtn);
 
 /* ----------------------------------------------- */
@@ -33,15 +29,15 @@
   const decideWinner = (a, b) => {
     if ((a === '✊' && b === '✊') || (a === '🤚' && b === '🤚') || (a === '✌️' && b === '✌️')) {
 
-      /* 3a. */ return "It's a draw!";
+      return "It's a draw!";
 
     } else if ((a === '✊' && b === '✌️') || (a === '🤚' && b === '✊') || (a === '✌️' && b === '🤚')) {
 
-      /* 3b. */ return "Player 1 wins!";
+      return "Player 1 wins!";
 
     } else {
 
-      /* 3c. */ return "Player 2 wins!";
+      return "Player 2 wins!";
 
     }
   };
@@ -58,7 +54,6 @@
 
 /* --- EVENT LISTENERS --- */
 
-  /* 2. */
   playBtn.addEventListener("click", play);
 
 /* ------------------------------- */
